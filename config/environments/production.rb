@@ -59,7 +59,7 @@ Athirdplace::Application.configure do
 
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-  config.assets.initialize_on_precompile = false
+  config.assets.initialize_on_precompile = true
   config.assets.precompile += %w( active_admin.css active_admin.js active_admin/print.css )
 
   # Ignore bad email addresses and do not raise email delivery errors.

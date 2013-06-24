@@ -10,6 +10,13 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+gem 'slim-rails'
+gem 'simple_form'
+
+gem 'devise',               github: 'plataformatec/devise'
+gem 'activeadmin',          github: 'gregbell/active_admin', branch: 'rails4'
+gem 'ransack',              github: 'ernie/ransack',         branch: 'rails-4'
+gem 'inherited_resources',  github: 'josevalim/inherited_resources'
 
 group :doc do
   gem 'sdoc', require: false
